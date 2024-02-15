@@ -105,7 +105,7 @@ class Menu:
         username = input("Enter your username: ")
         password = input("Enter your password: ")
 
-        if username == "ADMIN" and password == "admin":
+        if username == "admin" and password == "admin":
             print("Login successful!\n")
             print("ADMIN PANEL")
             print("1 - Add/Edit Car")
